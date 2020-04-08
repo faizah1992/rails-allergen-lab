@@ -3,7 +3,11 @@
 In this project, we will be practicing object relationships in Rails. We will be building out a domain model in which a User can author a recipe. A single Recipe `belongs_to` a user. A Recipe also has many Ingredients, while a single Ingredient can be found in many Recipes. There are Ingredients that some Users may be allergic to.
 
 ## Setup
-Create the Rails app using `rails new allergens --skip-git --skip-javascript`
+- Create the Rails app using `rails new allergens --skip-git --skip-javascript`
+- Draw the models and associations you will need based on the above description
+- Create your table schema
+- Create your models
+- Create seed data (bonus points for using [Faker](https://github.com/faker-ruby/faker/blob/master/doc/default/food.md))
 
 ## Deliverables
 
