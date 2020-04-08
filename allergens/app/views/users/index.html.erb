@@ -1,0 +1,8 @@
+<h2>List of Users</h2>
+<ul>
+<%@users.each do |u|%>
+<a href="/users/<%=u.id%>">
+<li><%=u.name%></li>
+
+<%end%>
+</ul>

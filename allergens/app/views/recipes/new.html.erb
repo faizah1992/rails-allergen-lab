@@ -1,0 +1,11 @@
+<form method="POST" action="/recipes">
+Name: <input type="text" name="name">
+<select name="user_id">
+<%@users.each do |u|%>
+<option value="<%=u.id%>">
+User Name: <%=u.name%>
+</option>
+<%end%>
+</select>
+<input type="submit"> 
+</form>
